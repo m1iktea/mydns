@@ -20,6 +20,12 @@
 - 添加别的字段不会被读取
 - `external_addr` 可以有多个值
 - `internal_addr` 只会转发到第一个定义的值
+```yaml
+external_addr:
+    - 0.0.0.0
+internal_addr:
+    - 1.1.1.1
+```
 
 ## 使用
 

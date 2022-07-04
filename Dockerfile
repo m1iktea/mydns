@@ -1,6 +1,6 @@
 FROM python:3.10.4-alpine3.14
   
-LABEL maintainer="abmartix"
+LABEL maintainer="mi1ktea"
 WORKDIR /wkdir
 
 COPY requirements.txt ./requirements.txt
